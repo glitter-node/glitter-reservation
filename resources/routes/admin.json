@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "routes": [
+    {
+      "path": "*/admin/reservations",
+      "layout": "reservation_booking_list",
+      "auth_required": true,
+      "permission": "glitter-reservation.reservations.read",
+      "meta": {
+        "title": "$t:glitter-reservation.admin.reservations.title"
+      }
+    }
+  ]
+}

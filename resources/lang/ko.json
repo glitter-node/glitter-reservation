@@ -1,0 +1,92 @@
+{
+  "messages": {
+    "reservations": {
+      "fetch_success": "예약 목록을 조회했습니다.",
+      "fetch_failed": "예약 목록 조회에 실패했습니다.",
+      "show_success": "예약 정보를 조회했습니다.",
+      "not_found": "예약 정보를 찾을 수 없습니다.",
+      "create_success": "예약을 생성했습니다.",
+      "create_failed": "예약 생성에 실패했습니다.",
+      "update_success": "예약을 수정했습니다.",
+      "update_failed": "예약 수정에 실패했습니다.",
+      "delete_success": "예약을 삭제했습니다.",
+      "delete_failed": "예약 삭제에 실패했습니다.",
+      "validation_failed": "예약 검증에 실패했습니다."
+    }
+  },
+  "validation": {
+    "attributes": {
+      "reservation_service_id": "예약 서비스",
+      "name": "예약자명",
+      "phone": "연락처",
+      "email": "이메일",
+      "reservation_date": "예약일",
+      "reservation_time": "예약 시간",
+      "guest_count": "예약 인원",
+      "status": "예약 상태",
+      "request_memo": "요청 메모",
+      "admin_memo": "관리자 메모"
+    }
+  },
+  "admin": {
+    "reservations": {
+      "title": "예약 관리",
+      "description": "예약 목록을 확인하고 상세 정보 및 상태 변경을 처리합니다.",
+      "total": "총 {{count}}건",
+      "empty": "조회된 예약이 없습니다.",
+      "columns": {
+        "id": "ID",
+        "service": "서비스",
+        "date": "예약일",
+        "time": "예약시간",
+        "customer": "고객명",
+        "phone": "연락처",
+        "status": "상태",
+        "created_at": "생성일",
+        "actions": "액션"
+      },
+      "detail": {
+        "view": "상세 보기",
+        "title": "예약 상세 및 상태 변경",
+        "loading": "예약 상세를 불러오는 중입니다.",
+        "load_failed": "예약 상세를 불러오지 못했습니다.",
+        "booking_id": "예약 번호",
+        "email": "이메일",
+        "current_status": "현재 상태",
+        "confirmed_at": "확정일",
+        "cancelled_at": "취소일",
+        "completed_at": "완료일",
+        "customer_memo": "고객 메모"
+      },
+      "status": {
+        "change": "상태 변경",
+        "pending": "대기",
+        "confirmed": "확정",
+        "cancelled": "취소",
+        "completed": "완료",
+        "no_show": "노쇼",
+        "admin_memo": "관리자 메모",
+        "memo_placeholder": "상태 변경 사유나 운영 메모를 입력해 주세요",
+        "close": "닫기",
+        "save": "상태 저장",
+        "saving": "저장 중...",
+        "update_success": "예약 상태가 변경되었습니다.",
+        "update_failed": "예약 상태를 변경하지 못했습니다."
+      },
+      "history": {
+        "title": "상태 변경 및 알림 관련 이력",
+        "description": "아래 이력은 예약 상태 변경 기록입니다.",
+        "notification_note": "실제 알림 발송 성공/실패 결과는 현재 별도 저장되지 않습니다.",
+        "empty": "기록된 상태 이력이 없습니다."
+      }
+    }
+  },
+  "user": {
+    "apply": {
+      "title": "예약 신청"
+    },
+    "lookup": {
+      "title": "예약 조회"
+    }
+  }
+}
