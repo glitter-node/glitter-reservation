@@ -1,0 +1,28 @@
+{
+    "name": "modules/glitter-reservation",
+    "description": "Portable reservation module for Gnuboard 7",
+    "type": "library",
+    "version": "0.2.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glitter.kr",
+            "homepage": "https://glitter.kr"
+        }
+    ],
+    "homepage": "https://github.com/glitter-gim/glitter-reservation",
+    "support": {
+        "docs": "https://github.com/glitter-gim/glitter-reservation/tree/main/docs",
+        "issues": "https://github.com/glitter-gim/glitter-reservation/issues",
+        "source": "https://github.com/glitter-gim/glitter-reservation"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Glitter\\Reservation\\": "src/",
+            "Modules\\Glitter\\Reservation\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    }
+}

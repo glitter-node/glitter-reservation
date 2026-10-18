@@ -1,0 +1,92 @@
+{
+  "messages": {
+    "reservations": {
+      "fetch_success": "Reservations fetched successfully.",
+      "fetch_failed": "Failed to fetch reservations.",
+      "show_success": "Reservation fetched successfully.",
+      "not_found": "Reservation not found.",
+      "create_success": "Reservation created successfully.",
+      "create_failed": "Failed to create reservation.",
+      "update_success": "Reservation updated successfully.",
+      "update_failed": "Failed to update reservation.",
+      "delete_success": "Reservation deleted successfully.",
+      "delete_failed": "Failed to delete reservation.",
+      "validation_failed": "Reservation validation failed."
+    }
+  },
+  "validation": {
+    "attributes": {
+      "reservation_service_id": "reservation service",
+      "name": "reservation name",
+      "phone": "phone number",
+      "email": "email",
+      "reservation_date": "reservation date",
+      "reservation_time": "reservation time",
+      "guest_count": "guest count",
+      "status": "reservation status",
+      "request_memo": "request memo",
+      "admin_memo": "admin memo"
+    }
+  },
+  "admin": {
+    "reservations": {
+      "title": "Reservation Management",
+      "description": "Review reservations and manage their details and statuses.",
+      "total": "{{count}} reservations",
+      "empty": "No reservations found.",
+      "columns": {
+        "id": "ID",
+        "service": "Service",
+        "date": "Date",
+        "time": "Time",
+        "customer": "Customer",
+        "phone": "Phone",
+        "status": "Status",
+        "created_at": "Created at",
+        "actions": "Actions"
+      },
+      "detail": {
+        "view": "View details",
+        "title": "Reservation details and status",
+        "loading": "Loading reservation details.",
+        "load_failed": "Failed to load reservation details.",
+        "booking_id": "Reservation number",
+        "email": "Email",
+        "current_status": "Current status",
+        "confirmed_at": "Confirmed at",
+        "cancelled_at": "Cancelled at",
+        "completed_at": "Completed at",
+        "customer_memo": "Customer memo"
+      },
+      "status": {
+        "change": "Change status",
+        "pending": "Pending",
+        "confirmed": "Confirmed",
+        "cancelled": "Cancelled",
+        "completed": "Completed",
+        "no_show": "No-show",
+        "admin_memo": "Admin memo",
+        "memo_placeholder": "Enter the reason for the status change or an operational memo",
+        "close": "Close",
+        "save": "Save status",
+        "saving": "Saving...",
+        "update_success": "Reservation status updated.",
+        "update_failed": "Failed to update reservation status."
+      },
+      "history": {
+        "title": "Status and notification history",
+        "description": "The history below records reservation status changes.",
+        "notification_note": "Notification delivery results are not stored separately.",
+        "empty": "No status history recorded."
+      }
+    }
+  },
+  "user": {
+    "apply": {
+      "title": "Make a reservation"
+    },
+    "lookup": {
+      "title": "Find a reservation"
+    }
+  }
+}

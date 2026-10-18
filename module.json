@@ -1,0 +1,49 @@
+{
+    "id": "glitter-reservation",
+    "identifier": "glitter-reservation",
+    "vendor": "Glitter.kr",
+    "name": {
+        "ko": "반짝이 예약",
+        "en": "Glitter Reservation"
+    },
+    "version": "0.2.4",
+    "license": "MIT",
+    "author": "Glitter.kr",
+    "description": {
+        "ko": "그누보드 7 호스트 프로젝트를 위한 휴대용 예약 번들",
+        "en": "Portable reservation bundle for Gnuboard 7 host projects"
+    },
+    "homepage": "https://github.com/glitter-gim/glitter-reservation",
+    "repository": "https://github.com/glitter-gim/glitter-reservation",
+    "support": {
+        "docs": "https://github.com/glitter-gim/glitter-reservation/tree/main/docs",
+        "issues": "https://github.com/glitter-gim/glitter-reservation/issues"
+    },
+    "keywords": [
+        "gnuboard7",
+        "reservation",
+        "portable-bundle",
+        "module",
+        "glitter"
+    ],
+    "category": "business",
+    "portable_bundle": true,
+    "g7_version": ">=7.0.6",
+    "requires": {
+        "g7": ">=7.0.6"
+    },
+    "assets": {
+        "js": {
+            "entry": "resources/js/index.ts",
+            "output": "dist/js/module.iife.js"
+        },
+        "css": {
+            "entry": "resources/css/main.css",
+            "output": "dist/css/module.css"
+        }
+    },
+    "dependencies": {
+        "modules": {},
+        "plugins": {}
+    }
+}

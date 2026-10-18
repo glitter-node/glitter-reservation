@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "routes": [
+    {
+      "path": "*/reservation/apply",
+      "layout": "reservation_apply",
+      "auth_required": false,
+      "meta": {
+        "title": "$t:glitter-reservation.user.apply.title"
+      }
+    },
+    {
+      "path": "*/reservation/lookup",
+      "layout": "reservation_lookup",
+      "auth_required": false,
+      "meta": {
+        "title": "$t:glitter-reservation.user.lookup.title"
+      }
+    }
+  ]
+}
